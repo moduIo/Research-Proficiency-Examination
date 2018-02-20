@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{Getoor:2007:ISR:1296231}
+Lise Getoor and Ben Taskar.
+\newblock {\em Introduction to Statistical Relational Learning (Adaptive
+  Computation and Machine Learning)}.
+\newblock The MIT Press, 2007.
+
+\bibitem{Prince:2012:CVM:2344089}
+Simon J.~D. Prince.
+\newblock {\em Computer Vision: Models, Learning, and Inference}.
+\newblock Cambridge University Press, New York, NY, USA, 1st edition, 2012.
+
+\bibitem{Russell:2009:AIM:1671238}
+Stuart Russell and Peter Norvig.
+\newblock {\em Artificial Intelligence: A Modern Approach}.
+\newblock Prentice Hall Press, Upper Saddle River, NJ, USA, 3rd edition, 2009.
+
+\bibitem{Freeman13}
+Bill Freeman and Antonio Torralba.
+\newblock Lecture 7: graphical models and belief propagation, September 2013.
+
+\bibitem{Ng}
+Andrew Ng.
+\newblock Cs229 lecture notes: The {EM} algorithm.
+
+\bibitem{Richardson:2006:MLN:1113907.1113910}
+Matthew Richardson and Pedro Domingos.
+\newblock Markov logic networks.
+\newblock {\em Mach. Learn.}, 62(1-2):107--136, February 2006.
+
+\bibitem{Sato:1997:PLS:1622270.1622348}
+Taisuke Sato and Yoshitaka Kameya.
+\newblock Prism: A language for symbolic-statistical modeling.
+\newblock In {\em Proceedings of the Fifteenth International Joint Conference
+  on Artifical Intelligence - Volume 2}, IJCAI'97, pages 1330--1335, San
+  Francisco, CA, USA, 1997. Morgan Kaufmann Publishers Inc.
+
+\bibitem{DeRaedt:2007:PPP:1625275.1625673}
+Luc De~Raedt, Angelika Kimmig, and Hannu Toivonen.
+\newblock Problog: A probabilistic prolog and its application in link
+  discovery.
+\newblock In {\em Proceedings of the 20th International Joint Conference on
+  Artifical Intelligence}, IJCAI'07, pages 2468--2473, San Francisco, CA, USA,
+  2007. Morgan Kaufmann Publishers Inc.
+
+\bibitem{Muggleton96stochasticlogic}
+Stephen Muggleton.
+\newblock Stochastic logic programs.
+\newblock In {\em New Generation Computing}. Academic Press, 1996.
+
+\bibitem{Sato95astatistical}
+Taisuke Sato.
+\newblock A statistical learning method for logic programs with distribution
+  semantics.
+\newblock In {\em In Proceedings of the 12th International Conference on Logic
+  Programming (ICLP'95)}, pages 715--729. MIT Press, 1995.
+
+\bibitem{DeRaedt:2015:PPC:2812521.2812529}
+Luc De~Raedt and Angelika Kimmig.
+\newblock Probabilistic (logic) programming concepts.
+\newblock {\em Mach. Learn.}, 100(1):5--47, July 2015.
+
+\bibitem{prism}
+Taisuke Sato, Neng-Fa Zhou, Yoshitaka Kameya, Yusuke Izumi, Keiichi Kubota, and
+  Ryosuke Kojima.
+\newblock {\em PRISM User’s Manual}.
+
+\bibitem{Kersting06logicalhidden}
+Kristian Kersting, Luc~De Raedt, and Tapani Raiko.
+\newblock Logical hidden {Markov} models.
+\newblock {\em Journal of Artificial Intelligence Research}, 25:2006, 2006.
+
+\bibitem{Mikolov:2013:DRW:2999792.2999959}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Proceedings of the 26th International Conference on Neural
+  Information Processing Systems - Volume 2}, NIPS'13, pages 3111--3119, USA,
+  2013. Curran Associates Inc.
+
+\bibitem{Pennington14glove:global}
+Jeffrey Pennington, Richard Socher, and Christopher~D. Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em In EMNLP}, 2014.
+
+\bibitem{Hu2016HarnessingDN}
+Zhiting Hu, Xuezhe Ma, Zhengzhong Liu, Eduard~H. Hovy, and Eric~P. Xing.
+\newblock Harnessing deep neural networks with logic rules.
+\newblock {\em CoRR}, abs/1603.06318, 2016.
+
+\bibitem{2015arXiv150504406B}
+S.~H. {Bach}, M.~{Broecheler}, B.~{Huang}, and L.~{Getoor}.
+\newblock {Hinge-Loss Markov Random Fields and Probabilistic Soft Logic}.
+\newblock {\em ArXiv e-prints}, May 2015.
+
+\bibitem{Kim2014ConvolutionalNN}
+Yoon Kim.
+\newblock Convolutional neural networks for sentence classification.
+\newblock In {\em EMNLP}, 2014.
+
+\bibitem{DBLP:journals/corr/Cohen16b}
+William~W. Cohen.
+\newblock Tensorlog: {A} differentiable deductive database.
+\newblock {\em CoRR}, abs/1605.06523, 2016.
+
+\end{thebibliography}
