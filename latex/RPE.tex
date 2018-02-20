@@ -653,7 +653,7 @@ We will first consider the case where $\mathcal{T}$ has a single rule to illustr
 \begin{verbatim}
                    uncle(X, Y) :- parent(X, W), brother(W, Y).
 \end{verbatim}
-We construct $G_{uncle}$ as shown in Fig. (?).  Assume that we are interested in the query \verb!uncle(c, Y)! for some $c \in C$.  This corresponds to the function $g_{io}^{uncle}(\textbf{u}_c)$.  Thus we will perform BP over $G_{uncle}$ conditioned on $X = c$.  This corresponds to the following linear transformation:
+We construct $G_{uncle}$ as shown in Fig. 13.  Assume that we are interested in the query \verb!uncle(c, Y)! for some $c \in C$.  This corresponds to the function $g_{io}^{uncle}(\textbf{u}_c)$.  Thus we will perform BP over $G_{uncle}$ conditioned on $X = c$.  This corresponds to the following linear transformation:
 \begin{gather*}
 (\textbf{u}_c \textbf{M}_{parent})\textbf{M}_{brother}.
 \end{gather*}
