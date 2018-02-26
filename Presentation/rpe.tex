@@ -27,7 +27,6 @@ Research Proficiency Examination}
 	\begin{itemize}
 		\item \textbf{Deep Learning}
 		\item Logical Student-Teacher Network
-		\item Probabilistic Logic Programming
 		\item TensorLog
 		\item Conclusion
 	\end{itemize}
@@ -105,7 +104,6 @@ Research Proficiency Examination}
 \begin{itemize}
 	\item Deep Learning
 	\item \textbf{Logical Student-Teacher Network}
-	\item Probabilistic Logic Programming
 	\item TensorLog
 	\item Conclusion
 \end{itemize}
@@ -262,16 +260,16 @@ Update $\boldsymbol{\theta}$ using (1) \\
 \begin{itemize}
 	\item Deep Learning
 	\item Logical Student-Teacher Network
-	\item \textbf{Probabilistic Logic Programming}
-	\item TensorLog
+	\item \textbf{TensorLog}
 	\item Conclusion
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{PRISM}
+\frametitle{Probabilistic Logic Programming (in PRISM)}
 \begin{verbatim}
 values(gene,[a,b,o]).
+
 bloodtype(P) :-
     genotype(X,Y),
     ( X=Y -> P=X
@@ -279,22 +277,12 @@ bloodtype(P) :-
     ; Y=o -> P=X
     ; P=ab
     ).
+    
 genotype(X,Y) :- msw(gene,X),msw(gene,Y).
 
 ?- learn([count(bloodtype(a),40),count(bloodtype(b),20),
 count(bloodtype(o),30),count(bloodtype(ab),10)]).
 \end{verbatim}
-\end{frame}
-
-\begin{frame}
-\frametitle{Agenda}
-\begin{itemize}
-	\item Deep Learning
-	\item Logical Student-Teacher Network
-	\item Probabilistic Logic Programming
-	\item \textbf{TensorLog}
-	\item Conclusion
-\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -642,7 +630,6 @@ Recall that $\textbf{u}_c$ is a one-hot vector which encodes the position of the
 \begin{itemize}
 	\item Deep Learning
 	\item Logical Student-Teacher Network
-	\item Probabilistic Logic Programming
 	\item TensorLog
 	\item \textbf{Conclusion}
 \end{itemize}
