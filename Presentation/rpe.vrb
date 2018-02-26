@@ -1,28 +1,7 @@
-\frametitle{TensorLog BP Algorithm}
-
-\begin{algorithm}[H]
-	\Fn{compileMessage$(X \rightarrow F)$: }{
-
-		\KwData{
-			Random variable $X$ representing the logical variable, \\
-			\hspace*{1.15cm} Factor $F$ representing $r(X)$ or $r(X_i, X_o)$
-		}
-		\KwResult{Message from $X$ to $F$: $\textbf{v}_{X, F}$\newline}
-
-		\uIf{$X$ is the given variable to the query}{
-			$\textbf{v}_{X, F} \leftarrow \textbf{u}_c$ // return the one-hot vector
-		}
-		// if the only factor which has $X$ as an argument is $F$:\\
-		\uElseIf{$\eta(X) = \{F\}$}{
-			$\textbf{v}_{X, F} \leftarrow \textbf{1}$  // return a vector of all 1's
-		}
-		\Else{
-			// loop over all $k$ of $X$'s neighbor literals $F_i$ except $F$\\
-			\ForEach{$F_i \in \eta(X)\setminus F$}{
-				$\textbf{v}_i \leftarrow \text{compileMessage}(F_i \rightarrow X)$
-			}
-			$\textbf{v}_{X, F} \leftarrow \textbf{v}_1 \circ ... \circ  \textbf{v}_k$ // $\circ$ is the element-wise product
-		}
-		\textbf{return} $\textbf{v}_{X, F}$
-	}
-\end{algorithm}
+\frametitle{Discussion}
+\begin{itemize}
+	\item The Student-Teacher network incorporates logical rules as a regularization term over the objective function.
+	\item This general framework can be applied in any context where some common sense knowledge may be useful.
+	\item TensorLog gives a differentiable probabilistic logical inference procedure which may be used as a component in a DNN.
+	\item The parameters of TensorLog models lose the interpretation as probabilities but may be trained via SGD (as opposed to EM).
+\end{itemize}

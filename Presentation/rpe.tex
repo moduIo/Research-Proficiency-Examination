@@ -268,6 +268,23 @@ Update $\boldsymbol{\theta}$ using (1) \\
 \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]
+\frametitle{PRISM}
+\begin{verbatim}
+values(gene,[a,b,o]).
+bloodtype(P) :-
+    genotype(X,Y),
+    ( X=Y -> P=X
+    ; X=o -> P=Y
+    ; Y=o -> P=X
+    ; P=ab
+    ).
+genotype(X,Y) :- msw(gene,X),msw(gene,Y).
+
+?- learn([count(bloodtype(a),40),count(bloodtype(b),20),
+count(bloodtype(o),30),count(bloodtype(ab),10)]).
+\end{verbatim}
+\end{frame}
 
 \begin{frame}
 \frametitle{Agenda}
@@ -631,5 +648,14 @@ Recall that $\textbf{u}_c$ is a one-hot vector which encodes the position of the
 \end{itemize}
 \end{frame}
 
+\begin{frame}[fragile]
+\frametitle{Discussion}
+\begin{itemize}
+	\item The Student-Teacher network incorporates logical rules as a regularization term over the objective function.
+	\item This general framework can be applied in any context where some common sense knowledge may be useful.
+	\item TensorLog gives a differentiable probabilistic logical inference procedure which may be used as a component in a DNN.
+	\item The parameters of TensorLog models lose the interpretation as probabilities but may be trained via SGD (as opposed to EM).
+\end{itemize}
+\end{frame}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 FEB 2018 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 FEB 2018 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1185,11 +1185,22 @@ Overfull \hbox (19.90929pt too wide) in paragraph at lines 258--258
 
  <./cnn_results.jpg>] [18
 
-] [19
+]
+\openout4 = `rpe.vrb'.
+
+ (./rpe.vrb
+Overfull \hbox (14.63664pt too wide) in paragraph at lines 15--15
+[]\OT1/cmtt/m/n/10.95 ?- learn([count(bloodtype(a),40),count(bloodtype(b),20),[
+] 
+ []
+
+) [19
 
 ] [20
 
 ] [21
+
+] [22
 
 ]
 \openout4 = `rpe.vrb'.
@@ -1200,15 +1211,15 @@ Overfull \hbox (14.63664pt too wide) in paragraph at lines 15--15
 ] 
  []
 
-) [22
-
-] [23
+) [23
 
 ] [24
 
 ] [25
 
 ] [26
+
+] [27
 
 ]
 \openout4 = `rpe.vrb'.
@@ -1219,71 +1230,71 @@ Overfull \hbox (14.63664pt too wide) in paragraph at lines 10--10
 ] 
  []
 
-) [27
+) [28
 
-] [28
+] [29
 
-] <bp.jpg, id=747, 1198.4775pt x 648.4225pt>
+] <bp.jpg, id=772, 1198.4775pt x 648.4225pt>
 File: bp.jpg Graphic file (type jpg)
  <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 423.
+Package pdftex.def Info: bp.jpg used on input line 440.
 (pdftex.def)             Requested size: 227.62166pt x 113.81203pt.
- [29
+ [30
 
  <./bp.jpg>]
 File: bp.jpg Graphic file (type jpg)
  <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 440.
+Package pdftex.def Info: bp.jpg used on input line 457.
 (pdftex.def)             Requested size: 128.02917pt x 56.90106pt.
- [30
+ [31
 
 ]
 File: bp.jpg Graphic file (type jpg)
  <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 455.
+Package pdftex.def Info: bp.jpg used on input line 472.
 (pdftex.def)             Requested size: 184.93916pt x 89.62091pt.
 
-Overfull \hbox (20.39783pt too wide) in paragraph at lines 455--455
+Overfull \hbox (20.39783pt too wide) in paragraph at lines 472--472
 []  
  []
 
 
-Overfull \vbox (0.41243pt too high) detected at line 455
+Overfull \vbox (0.41243pt too high) detected at line 472
  []
 
-[31
+[32
 
 ]
 File: bp.jpg Graphic file (type jpg)
  <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 474.
-(pdftex.def)             Requested size: 184.93916pt x 85.35655pt.
- [32
-
-]
-File: bp.jpg Graphic file (type jpg)
- <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 489.
+Package pdftex.def Info: bp.jpg used on input line 491.
 (pdftex.def)             Requested size: 184.93916pt x 85.35655pt.
  [33
 
 ]
 File: bp.jpg Graphic file (type jpg)
  <use bp.jpg>
-Package pdftex.def Info: bp.jpg used on input line 507.
+Package pdftex.def Info: bp.jpg used on input line 506.
 (pdftex.def)             Requested size: 184.93916pt x 85.35655pt.
  [34
+
+]
+File: bp.jpg Graphic file (type jpg)
+ <use bp.jpg>
+Package pdftex.def Info: bp.jpg used on input line 524.
+(pdftex.def)             Requested size: 184.93916pt x 85.35655pt.
+ [35
 
 ]
 \openout4 = `rpe.vrb'.
 
  (./rpe.vrb
-<tensorlog.jpg, id=901, 1300.86pt x 496.85625pt>
+<tensorlog.jpg, id=926, 1300.86pt x 496.85625pt>
 File: tensorlog.jpg Graphic file (type jpg)
  <use tensorlog.jpg>
 Package pdftex.def Info: tensorlog.jpg used on input line 4.
 (pdftex.def)             Requested size: 291.62885pt x 105.27539pt.
-) [35
+) [36
 
  <./tensorlog.jpg>]
 \openout4 = `rpe.vrb'.
@@ -1298,7 +1309,7 @@ Overfull \hbox (12.80316pt too wide) in paragraph at lines 4--5
  [] 
  []
 
-) [36
+) [37
 
 ]
 \openout4 = `rpe.vrb'.
@@ -1308,12 +1319,7 @@ Overfull \hbox (10.25774pt too wide) in paragraph at lines 5--5
 []  
  []
 
-) [37
-
-]
-\openout4 = `rpe.vrb'.
-
- (./rpe.vrb) [38
+) [38
 
 ]
 \openout4 = `rpe.vrb'.
@@ -1331,7 +1337,17 @@ Overfull \hbox (10.25774pt too wide) in paragraph at lines 5--5
  (./rpe.vrb) [41
 
 ]
-[42
+\openout4 = `rpe.vrb'.
+
+ (./rpe.vrb) [42
+
+]
+[43
+
+]
+\openout4 = `rpe.vrb'.
+
+ (./rpe.vrb) [44
 
 ]
 \tf@nav=\write6
@@ -1343,11 +1359,11 @@ Overfull \hbox (10.25774pt too wide) in paragraph at lines 5--5
 \tf@snm=\write8
 \openout8 = `rpe.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
  (./rpe.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
 Package rerunfilecheck Info: File `rpe.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1364,13 +1380,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26475 strings out of 492995
- 508040 string characters out of 6132704
+ 26487 strings out of 492995
+ 508142 string characters out of 6132704
  573430 words of memory out of 5000000
- 29463 multiletter control sequences out of 15000+600000
+ 29467 multiletter control sequences out of 15000+600000
  21491 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,21n,55p,10373b,3219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,21n,55p,10373b,3245s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1389,10 +1405,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
 pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on rpe.pdf (42 pages, 726559 bytes).
+Output written on rpe.pdf (44 pages, 731230 bytes).
 PDF statistics:
- 1181 PDF objects out of 1200 (max. 8388607)
- 1097 compressed objects within 11 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 1233 PDF objects out of 1440 (max. 8388607)
+ 1146 compressed objects within 12 object streams
+ 89 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
