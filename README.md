@@ -3,8 +3,8 @@ This work introduces key ideas in Statistical Relational Learning including: Bel
 
 Following this introductary material, we discuss two neural architectures which utilize relational (logical) information.
 
-Advised by:
+Committee:
 
-* Scott A Smolka - Main (https://www.cs.stonybrook.edu/people/faculty/ScottSmolka)
+* Scott A Smolka - Chair (https://www.cs.stonybrook.edu/people/faculty/ScottSmolka)
 * IV Ramakrishnan (https://www.cs.stonybrook.edu/people/faculty/IVRamakrishnan)
 * CR Ramakrishnan - Dissertation Advisor (https://www.cs.stonybrook.edu/people/faculty/CRRamakrishnan)
